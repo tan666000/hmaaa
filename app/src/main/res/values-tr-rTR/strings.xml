@@ -41,7 +41,7 @@
     <string name="home_detection_test">Tespit testi</string>
     <string name="home_download_test_app_title">Test uygulaması indir</string>
     <string name="home_download_test_app_message">Bireysel bir tespit test uygulaması geliştirdik ve tespit testini bu uygulamaya taşıdık. Şimdi indirmek ister misiniz?</string>
-    <string name="home_backup_and_restore">Yedekle & Geri Yükle</string>
+    <string name="home_backup_and_restore">Yedekle &amp; Geri Yükle</string>
     <string name="home_backup_config">Yapılandırmayı yedekle</string>
     <string name="home_restore_config">Yapılandırmayı geri yükle</string>
     <string name="home_import_successful">İçe aktarma başarılı</string>

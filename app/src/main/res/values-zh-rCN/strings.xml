@@ -9,6 +9,7 @@
     <string name="title_app_select">选择应用</string>
     <string name="title_app_settings">应用配置</string>
     <string name="title_about">关于</string>
+    <string name="title_about_fork">About this fork</string>
     <string name="do_not_dual">请勿多开或将隐藏应用列表安装到其他用户</string>
     <string name="show_crash_log">显示崩溃日志</string>
     <string name="config_damaged">配置文件损坏，请清除应用数据</string>
@@ -27,6 +28,7 @@
     <string name="no">否</string>
     <string name="search">搜索</string>
     <string name="system">系统</string>
+    <string name="follow_system">Follow system</string>
     <!-- Home -->
     <string name="home_xposed_activated">模块已激活 [%s]</string>
     <string name="home_xposed_not_activated">模块未激活</string>
@@ -58,7 +60,7 @@
     <string name="list_sort_by_package_name">按应用包名</string>
     <string name="list_sort_by_install_time">按安装时间</string>
     <string name="list_sort_by_update_time">按更新时间</string>
-    <!-- Template manage -->
+    <!-- Manage templates -->
     <string name="template_usage_hint">为“不安分”的应用建立模板，控制可获取的应用列表。\n\n黑名单（推荐）：模板中选中的应用对应用模板的应用不可见。\n白名单：模板中未选中的应用对应用模板的应用不可见。</string>
     <string name="template_new_blacklist">创建黑名单模板</string>
     <string name="template_new_whitelist">创建白名单模板</string>
@@ -74,6 +76,7 @@
     <string name="app_enable_hide">启用隐藏</string>
     <string name="app_template_config">模板设置</string>
     <string name="app_choose_template">选择模板</string>
+    <string name="app_choose_preset">Choose preset</string>
     <string name="app_exclude_system_apps">排除系统应用</string>
     <string name="app_exclude_system_apps_summary">仅在必需时关闭此选项。禁用它很可能会导致崩溃</string>
     <string name="app_template_using">已启用 %d 个模板</string>
@@ -81,6 +84,8 @@
     <string name="app_settings_preset_using">使用 %d 设置预置</string>
     <string name="app_extra_apps_visible_count">%d 个额外可见的应用</string>
     <string name="app_extra_apps_invisible_count">%d 个额外不可见的应用</string>
+    <string name="app_warning_risky_package_title">Risky package</string>
+    <string name="app_warning_risky_package_desc">This package is marked as risky and you can cause issues on hidden apps. Do you want to continue?</string>
     <string name="app_spoof">欺骗</string>
     <string name="app_hide_installation_source">欺骗安装源</string>
     <string name="app_hide_installation_source_desc">用户的所有应用程序都会被伪装成已在 Play Store 上安装了此应用程序</string>
@@ -89,6 +94,13 @@
     <string name="app_exclude_target_installation_source">排除目标应用</string>
     <string name="app_exclude_target_installation_source_desc">如果 Play Store 中没有此应用程序，您可以启用它</string>
     <string name="app_force_stop_warning">保存配置后强制停止目标应用程序</string>
+    <!-- Preset names -->
+    <string name="preset_xposed">LSPosed/Xposed modules</string>
+    <string name="preset_root_apps">Root managers/Rooted apps</string>
+    <string name="preset_custom_rom">Custom ROM apps</string>
+    <!-- Settings preset names -->
+    <string name="settings_preset_accessibility">Accessibility</string>
+    <string name="settings_preset_dev_options">Developer options</string>
     <!-- Logs -->
     <string name="logs_save">保存日志</string>
     <string name="logs_clear">清除日志</string>
@@ -112,6 +124,8 @@
     <string name="settings_max_log_size">日志缓冲区大小</string>
     <string name="settings_hide_icon">在启动器中隐藏图标</string>
     <string name="settings_hide_icon_summary">你仍然可以在 Xposed 管理器中打开此应用</string>
+    <string name="settings_bypass_risky_package_warning">绕过风险软件包警告</string>
+    <string name="settings_bypass_risky_package_warning_summary">请注意，对于启用此功能之前或之后出现的与风险软件包相关的问题，开发人员概不负责</string>
     <string name="settings_language">语言</string>
     <string name="settings_translate">参与翻译</string>
     <string name="settings_translate_summary">帮助我们把 %s 翻译到你的语言</string>
@@ -121,8 +135,6 @@
     <string name="settings_dark_theme">深色主题</string>
     <string name="settings_pure_black_dark_theme">纯黑主题</string>
     <string name="settings_pure_black_dark_theme_summary">当深色主题启用时使用纯黑主题</string>
-    <string name="settings_bypass_risky_package_warning">绕过风险软件包警告</string>
-    <string name="settings_bypass_risky_package_warning_summary">请注意，对于启用此功能之前或之后出现的与风险软件包相关的问题，开发人员概不负责</string>
     <string name="settings_service">服务</string>
     <string name="settings_stop_system_service">停止系统服务</string>
     <string name="settings_stop_system_service_summary">需要重启设备才能再次启动系统服务</string>
@@ -137,6 +149,8 @@
     <string name="settings_receive_beta_update_summary">注意：测试版可能不稳定</string>
     <!-- About -->
     <string name="about_description">虽然“检测安装的应用”是不正确的做法，但是并不是所有的与 root 相关联的插件类应用都提供了随机包名支持。\n这就意味着检测到安装了此类应用（如 Fake Location 、存储空间隔离）与检测到了 root 本身区别不大。\n\n与此同时，部分“不安分”的应用会使用各种漏洞绕过系统权限来获取你的应用列表，从而对你建立用户画像。\n\n该模块提供了一些检测方式用于测试您是否成功地隐藏了某些特定的包名；同时可作为 Xposed 模块用于隐藏应用列表或特定应用，保护隐私。    </string>
+    <string name="about_fork_description">        The original HMA project has become closed-source and their latest code didn\'t contain some of the latest changes, so I created this fork to continue it as open-source again.
+    </string>
     <string name="about_how_to_use_title">如何使用此模块</string>
     <string name="about_how_to_use_description_1">您可以在“模板管理”中创建模板。\n然后，将模板应用于“应用管理”中的应用。\n（您也可以为目标应用选择额外可见或不可见的应用。）\n注意：您应确保在 Xposed 中设置的模块作用域/白名单中有且仅有“系统框架”。(部分系统中“系统框架”可能显示为“Android”)    </string>
     <string name="about_how_to_use_description_2">配置修改即时生效。    </string>
@@ -163,4 +177,8 @@
     <string name="color_deep_orange">深橙</string>
     <string name="color_brown">棕色</string>
     <string name="color_blue_grey">灰蓝</string>
+    <!-- Dark theme modes -->
+    <string name="dark_theme">Dark theme</string>
+    <string name="dark_theme_off">Always off</string>
+    <string name="dark_theme_on">Always on</string>
 </resources>

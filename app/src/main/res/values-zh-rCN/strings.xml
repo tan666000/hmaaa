@@ -77,8 +77,18 @@
     <string name="app_exclude_system_apps">排除系统应用</string>
     <string name="app_exclude_system_apps_summary">仅在必需时关闭此选项。禁用它很可能会导致崩溃</string>
     <string name="app_template_using">已启用 %d 个模板</string>
+    <string name="app_preset_using">使用 %d 预置</string>
+    <string name="app_settings_preset_using">使用 %d 设置预置</string>
     <string name="app_extra_apps_visible_count">%d 个额外可见的应用</string>
     <string name="app_extra_apps_invisible_count">%d 个额外不可见的应用</string>
+    <string name="app_spoof">欺骗</string>
+    <string name="app_hide_installation_source">欺骗安装源</string>
+    <string name="app_hide_installation_source_desc">用户的所有应用程序都会被伪装成已在 Play Store 上安装了此应用程序</string>
+    <string name="app_hide_installation_source_system">欺骗系统应用程序</string>
+    <string name="app_hide_installation_source_system_desc">所有系统应用程序都会被伪装成已安装，而非此应用程序</string>
+    <string name="app_exclude_target_installation_source">排除目标应用</string>
+    <string name="app_exclude_target_installation_source_desc">如果 Play Store 中没有此应用程序，您可以启用它</string>
+    <string name="app_force_stop_warning">保存配置后强制停止目标应用程序</string>
     <!-- Logs -->
     <string name="logs_save">保存日志</string>
     <string name="logs_clear">清除日志</string>
@@ -111,6 +121,8 @@
     <string name="settings_dark_theme">深色主题</string>
     <string name="settings_pure_black_dark_theme">纯黑主题</string>
     <string name="settings_pure_black_dark_theme_summary">当深色主题启用时使用纯黑主题</string>
+    <string name="settings_bypass_risky_package_warning">绕过风险软件包警告</string>
+    <string name="settings_bypass_risky_package_warning_summary">请注意，对于启用此功能之前或之后出现的与风险软件包相关的问题，开发人员概不负责</string>
     <string name="settings_service">服务</string>
     <string name="settings_stop_system_service">停止系统服务</string>
     <string name="settings_stop_system_service_summary">需要重启设备才能再次启动系统服务</string>

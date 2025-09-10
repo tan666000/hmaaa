@@ -62,26 +62,26 @@
     <string name="list_sort_by_update_time">Por fecha de actualización</string>
     <!-- Manage templates -->
     <string name="template_usage_hint">Establish templates for \"restless\" apps, controlling applist they can obtain.\n\nBlacklist (recommended): the apps selected in the template will be invisible to the apps applying the template.\nWhitelist: the apps not selected in the template will be invisible to the apps applying the template.</string>
-    <string name="template_new_blacklist">Create a blacklist template</string>
-    <string name="template_new_whitelist">Create a whitelist template</string>
-    <string name="template_delete">Are you sure to delete the template?</string>
-    <string name="template_name">Template name</string>
-    <string name="template_name_invalid">Name invalid</string>
-    <string name="template_delete_title">Delete Template</string>
-    <string name="template_name_already_exist">Template name already exist</string>
-    <string name="template_applied_count">Applied to %d apps</string>
-    <string name="template_apps_visible_count">%d apps visible</string>
-    <string name="template_apps_invisible_count">%d apps invisible</string>
+    <string name="template_new_blacklist">Crear plantilla de lista negra</string>
+    <string name="template_new_whitelist">Crear plantilla de lista blanca</string>
+    <string name="template_delete">¿Está seguro que desea eliminar la plantilla?</string>
+    <string name="template_name">Nombre de la plantilla</string>
+    <string name="template_name_invalid">El nombre no es válido</string>
+    <string name="template_delete_title">Eliminar plantilla</string>
+    <string name="template_name_already_exist">El nombre de la plantilla ya existe</string>
+    <string name="template_applied_count">Aplicado a %d apps</string>
+    <string name="template_apps_visible_count">%d apps visibles</string>
+    <string name="template_apps_invisible_count">%d apps invisibles</string>
     <!-- App settings -->
-    <string name="app_enable_hide">Enable hide</string>
-    <string name="app_template_config">Template config</string>
-    <string name="app_choose_template">Choose template</string>
-    <string name="app_choose_preset">Choose preset</string>
-    <string name="app_exclude_system_apps">Exclude system apps</string>
-    <string name="app_exclude_system_apps_summary">Turn off this option only when really necessary. It is likely to cause crash with it disabled</string>
-    <string name="app_template_using">Using %d templates</string>
-    <string name="app_preset_using">Using %d presets</string>
-    <string name="app_settings_preset_using">Using %d settings presets</string>
+    <string name="app_enable_hide">Permitir ocultar</string>
+    <string name="app_template_config">Configuración de la plantilla</string>
+    <string name="app_choose_template">Elige la plantilla</string>
+    <string name="app_choose_preset">Elegir preset</string>
+    <string name="app_exclude_system_apps">Excluir apps del sistema</string>
+    <string name="app_exclude_system_apps_summary">Desactive esta opción solo cuando sea realmente necesario. Es probable que cause un crasheo si está desactivado</string>
+    <string name="app_template_using">Usando %d plantillas</string>
+    <string name="app_preset_using">Usando %d presets</string>
+    <string name="app_settings_preset_using">Usando %d ajustes predefinidos</string>
     <string name="app_extra_apps_visible_count">%d additional apps visible</string>
     <string name="app_extra_apps_invisible_count">%d additional apps invisible</string>
     <string name="app_warning_risky_package_title">Risky package</string>
@@ -95,11 +95,11 @@
     <string name="app_exclude_target_installation_source_desc">You can enable it if this app is not available at Play Store</string>
     <string name="app_force_stop_warning">Don\'t forget to force stop the target app after saving the configuration</string>
     <!-- Preset names -->
-    <string name="preset_xposed">LSPosed/Xposed modules</string>
-    <string name="preset_root_apps">Root managers/Rooted apps</string>
-    <string name="preset_custom_rom">Custom ROM apps</string>
+    <string name="preset_xposed">Módulos LSPosed/Xposed</string>
+    <string name="preset_root_apps">Gestores root/Aplicaciones Root</string>
+    <string name="preset_custom_rom">Aplicaciones de ROM personalizadas</string>
     <!-- Settings preset names -->
-    <string name="settings_preset_accessibility">Accessibility</string>
+    <string name="settings_preset_accessibility">Accesibilidad</string>
     <string name="settings_preset_dev_options">Developer options</string>
     <!-- Logs -->
     <string name="logs_save">Save logs</string>

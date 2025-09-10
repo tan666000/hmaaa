@@ -9,12 +9,12 @@
     <string name="title_app_select">Pilih aplikasi</string>
     <string name="title_app_settings">Pengaturan aplikasi</string>
     <string name="title_about">Tentang</string>
-    <string name="title_about_fork">Tentang fork ini</string>
+    <string name="title_about_fork">Tentang cabang ini</string>
     <string name="do_not_dual">Jangan instal HMA pada pengguna sekunder</string>
     <string name="show_crash_log">Tampilkan log kerusakan</string>
     <string name="config_damaged">File konfigurasi rusak. Harap bersihkan data aplikasi</string>
     <string name="edit_list">Edit daftar</string>
-    <string name="delete">Menghapus</string>
+    <string name="delete">Hapus</string>
     <string name="enabled">Diaktifkan</string>
     <string name="disabled">Dinonaktifkan</string>
     <string name="work_mode">Mode kerja</string>
@@ -61,7 +61,7 @@
     <string name="list_sort_by_install_time">Waktu instalasi</string>
     <string name="list_sort_by_update_time">Waktu pembaruan</string>
     <!-- Manage templates -->
-    <string name="template_usage_hint">Buat templat untuk aplikasi \"restless\", guna mengontrol akses daftar aplikasi.\n\nBlacklist (disarankan): aplikasi yang dipilih dalam templat akan tersembunyi dari aplikasi yang menerapkan templat tersebut.\nWhitelist: aplikasi yang tidak dipilih dalam templat akan tersembunyi oleh aplikasi yang menerapkan templat tersebut.</string>
+    <string name="template_usage_hint">Buat templat untuk aplikasi \"beresiko\", guna mengontrol akses daftar aplikasi.\n\nBlacklist (disarankan): aplikasi yang dipilih dalam templat akan tersembunyi dari aplikasi yang menerapkan templat tersebut.\nWhitelist: aplikasi yang tidak dipilih dalam templat akan tersembunyi oleh aplikasi yang menerapkan templat tersebut.</string>
     <string name="template_new_blacklist">Buat templat blacklist</string>
     <string name="template_new_whitelist">Buat templat whitelist</string>
     <string name="template_delete">Apakah anda yakin ingin menghapus templat tersebut?</string>
@@ -77,7 +77,7 @@
     <string name="app_template_config">Konfigurasi templat</string>
     <string name="app_choose_template">Pilih templat</string>
     <string name="app_choose_preset">Pilih preset</string>
-    <string name="app_exclude_system_apps">Kecualikan aplikasi sistem</string>
+    <string name="app_exclude_system_apps">Kecualikan apl sistem</string>
     <string name="app_exclude_system_apps_summary">Matikan opsi ini hanya jika benar-benar diperlukan. Kemungkinan menyebabkan crash jika dinonaktifkan</string>
     <string name="app_template_using">Menggunakan %d templat</string>
     <string name="app_preset_using">Menggunakan %d preset</string>
@@ -139,9 +139,9 @@
     <string name="settings_stop_system_service">Hentikan layanan sistem</string>
     <string name="settings_stop_system_service_summary">Perlu reboot untuk memulai kembali layanan</string>
     <string name="settings_is_clean_env">Bersihkan lingkungan runtime pada saat yang bersamaan?</string>
-    <string name="settings_is_clean_env_summary">Hapus cache layanan sistem di /data/misc/hide_my_applist_*. Setelah reboot berikutnya, Diperlukan membuka aplikasi modul sekali secara manual untuk mengaktifkan intersepsi, dan jumlah intersepsi juga akan dihapus.</string>
+    <string name="settings_is_clean_env_summary">Hapus cache layanan sistem di /data/misc/hide_my_applist_*. Setelah mulai ulang berikutnya, Diperlukan membuka aplikasi modul sekali secara manual untuk mengaktifkan intersepsi, dan jumlah intersepsi juga akan dihapus.</string>
     <string name="settings_force_clean_env">Paksa bersihkan lingkungan runtime (root)</string>
-    <string name="settings_force_clean_env_summary">Hanya jika layanan sistem gagal untuk memulai, jika tidak, Anda harus mengklik opsi di atas.</string>
+    <string name="settings_force_clean_env_summary">Hanya jika layanan sistem gagal untuk memulai, jika tidak, anda harus mengklik opsi di atas.</string>
     <string name="settings_force_clean_env_toast_successful">Lingkungan runtime dibersihkan</string>
     <string name="settings_update">Pembaruan</string>
     <string name="settings_disable_update">Nonaktifkan pemberitahuan pembaruan</string>

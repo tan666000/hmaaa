@@ -100,21 +100,21 @@
     <string name="preset_custom_rom">Aplicaciones de ROM personalizadas</string>
     <!-- Settings preset names -->
     <string name="settings_preset_accessibility">Accesibilidad</string>
-    <string name="settings_preset_dev_options">Developer options</string>
+    <string name="settings_preset_dev_options">Opciones de desarrollador</string>
     <!-- Logs -->
-    <string name="logs_save">Save logs</string>
-    <string name="logs_clear">Clear logs</string>
-    <string name="logs_empty">No logs to save</string>
-    <string name="logs_saved">Logs saved</string>
+    <string name="logs_save">Guardar logs</string>
+    <string name="logs_clear">Borrar logs</string>
+    <string name="logs_empty">No hay logs para guardar</string>
+    <string name="logs_saved">Logs guardados</string>
     <!-- Settings -->
-    <string name="settings_module">Module</string>
-    <string name="settings_data_isolation">Data isolation</string>
+    <string name="settings_module">Módulo</string>
+    <string name="settings_data_isolation">Aislamiento de datos</string>
     <string name="settings_data_isolation_summary">App data: %s\nVold app data: %s\nForce mount: %s</string>
-    <string name="settings_data_isolation_unsupported">This option is only available on Android 11 and above</string>
-    <string name="settings_app_data_isolation">App data isolation</string>
+    <string name="settings_data_isolation_unsupported">Esta opción solo está disponible en Android 11 y superior</string>
+    <string name="settings_app_data_isolation">Aislamiento de datos de la aplicacion</string>
     <string name="settings_vold_app_data_isolation">Vold app data isolation</string>
-    <string name="settings_warning">Warning</string>
-    <string name="settings_vold_warning">This will enable an AOSP feature which make app\'s external private storage directory isolated. This can help improve hiding apps while may cause stability issues. This feature may stop working at any time since it is abandoned in AOSP.</string>
+    <string name="settings_warning">Advertencia</string>
+    <string name="settings_vold_warning">Esto habilitará una función AOSP que hará que el directorio de almacenamiento privado externo de la aplicación esté aislado. Esto puede ayudar a mejorar la ocultación de aplicaciones pero puede causar problemas de estabilidad. Esta característica puede dejar de funcionar en cualquier momento ya que hay sido abandonada en AOSP.</string>
     <string name="settings_change_require_root">Changing requires root permission</string>
     <string name="settings_need_reboot">Changing requires reboot</string>
     <string name="settings_permission_denied">Permission denied</string>
@@ -153,9 +153,8 @@
     <string name="about_fork_description">        The original HMA project has become closed-source and their latest code didn\'t contain some of the latest changes, so I created this fork to continue it as open-source again.
     </string>
     <string name="about_how_to_use_title">How to use this module</string>
-    <string name="about_how_to_use_description_1">        You can create templates in \"Template manage\".\nThen apply the templates to apps in \"App manage\". (You can also select extra apps for targets.)\nYou should and ONLY should check \"System Framework\" in Xposed module scope / whitelist.
-    </string>
-    <string name="about_how_to_use_description_2">        Config modification effective in real time.
+    <string name="about_how_to_use_description_1">        Puede crear plantillas en \"Administrar plantillas\".\n Luego aplique las plantillas a las aplicaciones en \"Administrar aplicaciones\". (También puede seleccionar aplicaciones adicionales para los objetivos).\n Debería y SÓLO debería marcar \"Framework del sistema\" en la lista blanca del módulo Xposed.    </string>
+    <string name="about_how_to_use_description_2">        La modificación de configuración es efectiva en tiempo real.
     </string>
     <string name="about_developer">Developer</string>
     <string name="about_support">Support and feedback</string>

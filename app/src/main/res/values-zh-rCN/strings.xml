@@ -60,6 +60,8 @@
     <string name="list_sort_by_package_name">按应用包名</string>
     <string name="list_sort_by_install_time">按安装时间</string>
     <string name="list_sort_by_update_time">按更新时间</string>
+    <string name="list_empty_no_enabled">尝试使用此模板的工作模式为应用程序启用隐藏，应用程序将显示在此处</string>
+    <string name="list_empty_no_apps">未找到应用程序，可能您未允许此应用程序查询所有软件包</string>
     <!-- Manage templates -->
     <string name="template_usage_hint">为“不安分”的应用建立模板，控制可获取的应用列表。\n\n黑名单（推荐）：模板中选中的应用对应用模板的应用不可见。\n白名单：模板中未选中的应用对应用模板的应用不可见。</string>
     <string name="template_new_blacklist">创建黑名单模板</string>

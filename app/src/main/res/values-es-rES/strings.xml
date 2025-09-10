@@ -5,7 +5,7 @@
     <string name="title_settings">Ajustes</string>
     <string name="title_template_manage">Template manage</string>
     <string name="title_template_settings">Configuración de la plantilla</string>
-    <string name="title_app_manage">App manage</string>
+    <string name="title_app_manage">Gestionar apps</string>
     <string name="title_app_select">Seleccionar aplicaciones</string>
     <string name="title_app_settings">Configuración de las apps</string>
     <string name="title_about">Acerca de</string>
@@ -39,7 +39,7 @@
     <string name="home_manage">Administrar</string>
     <string name="home_detection_test">Prueba de detección</string>
     <string name="home_download_test_app_title">Descargar aplicación de prueba</string>
-    <string name="home_download_test_app_message">We have developed an individual detection test app and migrated detection test to it. Do you want to download it now?</string>
+    <string name="home_download_test_app_message">Hemos desarrollado una aplicación de prueba de detección individual y hemos migrado el test de detección a ella ¿Quieres descargarla ahora?</string>
     <string name="home_backup_and_restore">Copia de seguridad&amp; Restaurar</string>
     <string name="home_backup_config">Configuración de la copia de seguridad</string>
     <string name="home_restore_config">Restaurar configuración</string>
@@ -60,10 +60,10 @@
     <string name="list_sort_by_package_name">Por nombre del paquete</string>
     <string name="list_sort_by_install_time">Por fecha de instalación</string>
     <string name="list_sort_by_update_time">Por fecha de actualización</string>
-    <string name="list_empty_no_enabled">Try enabling hiding for apps with this template\'s work mode and apps will appear here</string>
-    <string name="list_empty_no_apps">No applications found, maybe you didn\'t allow this app to query all packages</string>
+    <string name="list_empty_no_enabled">Trate de habilitar la ocultación para aplicaciones con el modo de trabajo de esta plantilla y las aplicaciones aparecerán aquí</string>
+    <string name="list_empty_no_apps">No se han encontrado aplicaciones, tal vez no hayas permitido que esta aplicación consulte todos los paquetes</string>
     <!-- Manage templates -->
-    <string name="template_usage_hint">Establish templates for \"restless\" apps, controlling applist they can obtain.\n\nBlacklist (recommended): the apps selected in the template will be invisible to the apps applying the template.\nWhitelist: the apps not selected in the template will be invisible to the apps applying the template.</string>
+    <string name="template_usage_hint">Establece plantillas para aplicaciones \"inquietas\", controlando la lista de aplicaciones que pueden obtener.\n\nLista negra (recomendada): las aplicaciones seleccionadas en la plantilla serán invisibles para las aplicaciones que aplican la plantilla.\nLista blanca: las aplicaciones no seleccionadas en la plantilla serán invisibles para las aplicaciones que aplican la plantilla.</string>
     <string name="template_new_blacklist">Crear plantilla de lista negra</string>
     <string name="template_new_whitelist">Crear plantilla de lista blanca</string>
     <string name="template_delete">¿Está seguro que desea eliminar la plantilla?</string>
@@ -126,7 +126,7 @@
     <string name="settings_max_log_size">Tamaño de búfer de los logs</string>
     <string name="settings_hide_icon">Ocultar icono del módulo en el launcher</string>
     <string name="settings_hide_icon_summary">Aún puedes abrir la aplicación en el gestor de Xposed</string>
-    <string name="settings_bypass_risky_package_warning">Bypass risky package warning</string>
+    <string name="settings_bypass_risky_package_warning">Omitir la advertencia de paquete riesgoso</string>
     <string name="settings_bypass_risky_package_warning_summary">Tenga en cuenta que los desarrolladores no son responsables de problemas relacionados con paquetes riesgosos antes o después de activar esta característica</string>
     <string name="settings_language">Idioma</string>
     <string name="settings_translate">Participa en la traducción</string>

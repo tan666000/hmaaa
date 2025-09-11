@@ -81,7 +81,7 @@
     <string name="app_choose_template">Escolher modelo</string>
     <string name="app_choose_preset">Escolher perfil</string>
     <string name="app_exclude_system_apps">Excluir apps dos sistema</string>
-    <string name="app_exclude_system_apps_summary">Desative essa opção somente quando REALMENTE necessário, ja que pode ocasionar do app parar de funcionar se desativado</string>
+    <string name="app_exclude_system_apps_summary">Desative essa opção somente quando Realmente necessário, já que pode ocasionar do app parar de funcionar se desativada</string>
     <string name="app_template_using">Usando %d modelos</string>
     <string name="app_preset_using">Usando %d perfis</string>
     <string name="app_settings_preset_using">Usando %d perfis de configuração</string>

@@ -97,6 +97,8 @@
     <string name="app_exclude_target_installation_source">Ignorar esse app</string>
     <string name="app_exclude_target_installation_source_desc">Ative isso se esse app não esta disponivel na Play Store</string>
     <string name="app_force_stop_warning">Não esqueça de fechar o app após salvar a configuração</string>
+    <string name="app_invert_activity_launch_protection">Invert Activity launch protection</string>
+    <string name="app_invert_activity_launch_protection_desc">This option will invert \"Disable Activity launch protection\" selection in Settings.</string>
     <!-- Presets -->
     <string name="title_preset_manage">Mostrar perfis</string>
     <string name="preset_xposed">Módulos Lsposed/Xposed</string>
@@ -130,6 +132,8 @@
     <string name="settings_hide_icon_summary">Voce ainda podera abrir o app pelo Lsposed</string>
     <string name="settings_bypass_risky_package_warning">Ignorar aviso de app de risco</string>
     <string name="settings_bypass_risky_package_warning_summary">Aviso que o desenvolvedor não é responsável por problemas causados por apps</string>
+    <string name="settings_disable_activity_launch_protection">Disable Activity launch protection</string>
+    <string name="settings_disable_activity_launch_protection_summary">This toggle will lift all startActivity protections. If you\'re unsure, don\'t enable it.</string>
     <string name="settings_language">Idioma</string>
     <string name="settings_translate">Participe na tradução</string>
     <string name="settings_translate_summary">Nos ajude a traduzir %s na sua lingua</string>

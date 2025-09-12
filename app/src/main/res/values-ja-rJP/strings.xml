@@ -97,6 +97,8 @@
     <string name="app_exclude_target_installation_source">対象アプリを除外する</string>
     <string name="app_exclude_target_installation_source_desc">このアプリが Play ストアで利用できない場合、有効にすることができます</string>
     <string name="app_force_stop_warning">設定を保存した後に対象のアプリを強制終了することを忘れないでください</string>
+    <string name="app_invert_activity_launch_protection">Invert Activity launch protection</string>
+    <string name="app_invert_activity_launch_protection_desc">This option will invert \"Disable Activity launch protection\" selection in Settings.</string>
     <!-- Presets -->
     <string name="title_preset_manage">プリセットを表示</string>
     <string name="preset_xposed">LSPosed/Xposed モジュール</string>
@@ -130,6 +132,8 @@
     <string name="settings_hide_icon_summary">LSPosed マネージャーで引き続きアプリを開くことができます</string>
     <string name="settings_bypass_risky_package_warning">危険なパッケージに関する警告を無視する</string>
     <string name="settings_bypass_risky_package_warning_summary">この機能を有効にする前後で、危険なパッケージに関する問題が発生した場合、開発者は一切責任を負わないことをご了承ください</string>
+    <string name="settings_disable_activity_launch_protection">Disable Activity launch protection</string>
+    <string name="settings_disable_activity_launch_protection_summary">This toggle will lift all startActivity protections. If you\'re unsure, don\'t enable it.</string>
     <string name="settings_language">言語</string>
     <string name="settings_translate">翻訳に参加する</string>
     <string name="settings_translate_summary">%s をあなたの言語に翻訳するのにご協力ください</string>

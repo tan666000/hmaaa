@@ -3,7 +3,7 @@
     <string name="title_home">Inicio</string>
     <string name="title_logs">Logs</string>
     <string name="title_settings">Ajustes</string>
-    <string name="title_template_manage">Template manage</string>
+    <string name="title_template_manage">Administrar plantillas</string>
     <string name="title_template_settings">Configuración de la plantilla</string>
     <string name="title_app_manage">Gestionar apps</string>
     <string name="title_app_select">Seleccionar aplicaciones</string>
@@ -41,8 +41,8 @@
     <string name="home_download_test_app_title">Descargar aplicación de prueba</string>
     <string name="home_download_test_app_message">Hemos desarrollado una aplicación de prueba de detección individual y hemos migrado el test de detección a ella ¿Quieres descargarla ahora?</string>
     <string name="home_backup_and_restore">Copia de seguridad&amp; Restaurar</string>
-    <string name="home_backup_config">Configuración de la copia de seguridad</string>
-    <string name="home_restore_config">Restaurar configuración</string>
+    <string name="home_backup_config">Exportar config</string>
+    <string name="home_restore_config">Restaurar config</string>
     <string name="home_import_successful">Importación con éxito</string>
     <string name="home_import_failed">Importación fallida</string>
     <string name="home_import_app_version_too_old">Versión del módulo inferior a la de la copia</string>

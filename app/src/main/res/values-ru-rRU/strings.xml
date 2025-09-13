@@ -93,20 +93,20 @@
     <string name="app_hide_installation_source">Подменить источник установки</string>
     <string name="app_hide_installation_source_desc">Все пользовательские приложения будут помечены установленными из Play Store для этого приложения</string>
     <string name="app_hide_installation_source_system">Также подменять системные приложения</string>
-    <string name="app_hide_installation_source_system_desc">All of system apps will be spoofed as installed over nothing for this application</string>
-    <string name="app_exclude_target_installation_source">Exclude the target app</string>
-    <string name="app_exclude_target_installation_source_desc">You can enable it if this app is not available at Play Store</string>
-    <string name="app_force_stop_warning">Don\'t forget to force stop the target app after saving the configuration</string>
-    <string name="app_invert_activity_launch_protection">Invert Activity launch protection</string>
-    <string name="app_invert_activity_launch_protection_desc">This option will invert \"Disable Activity launch protection\" selection in Settings.</string>
+    <string name="app_hide_installation_source_system_desc">Все системные приложения будут показаны как установленные вручную для этого приложения</string>
+    <string name="app_exclude_target_installation_source">Исключить целевое приложение</string>
+    <string name="app_exclude_target_installation_source_desc">Вы можете включить это, если данное приложение не доступно в Play Store</string>
+    <string name="app_force_stop_warning">Не забудьте принудительно остановить целевое приложение после сохранения конфигурации</string>
+    <string name="app_invert_activity_launch_protection">Инвертировать защиту запуска Activity</string>
+    <string name="app_invert_activity_launch_protection_desc">Этот параметр обратит выбор настройки «Отключить защиту запуска Activity» в настройках.</string>
     <!-- Presets -->
-    <string name="title_preset_manage">Show presets</string>
-    <string name="preset_xposed">LSPosed/Xposed modules</string>
-    <string name="preset_root_apps">Root managers/Rooted apps</string>
-    <string name="preset_custom_rom">Custom ROM apps</string>
+    <string name="title_preset_manage">Показать пресеты</string>
+    <string name="preset_xposed">Модули LSPosed/Xposed</string>
+    <string name="preset_root_apps">Root менеджеры/Root-приложения</string>
+    <string name="preset_custom_rom">Приложения кастомных прошивок</string>
     <!-- Settings preset names -->
-    <string name="settings_preset_accessibility">Accessibility</string>
-    <string name="settings_preset_dev_options">Developer options</string>
+    <string name="settings_preset_accessibility">Доступность</string>
+    <string name="settings_preset_dev_options">Параметры разработчика</string>
     <!-- Logs -->
     <string name="logs_save">Сохранить логи</string>
     <string name="logs_clear">Очистить логи</string>
@@ -119,8 +119,8 @@
     <string name="settings_data_isolation_unsupported">Это опция доступна только на Android 11 и выше</string>
     <string name="settings_app_data_isolation">Изоляция данных приложений</string>
     <string name="settings_vold_app_data_isolation">Принудительная изоляция данных приложений</string>
-    <string name="settings_warning">Warning</string>
-    <string name="settings_vold_warning">This will enable an AOSP feature which make app\'s external private storage directory isolated. This can help improve hiding apps while may cause stability issues. This feature may stop working at any time since it is abandoned in AOSP.</string>
+    <string name="settings_warning">Предупреждение</string>
+    <string name="settings_vold_warning">При включении этой опции активируется функция AOSP, которая изолирует внешний приватный каталог хранения приложения. Это может улучшить скрытие приложений, но потенциально вызывает проблемы со стабильностью. Поскольку функция заброшена в AOSP, она может перестать работать в любой момент.</string>
     <string name="settings_change_require_root">Изменение требует root-доступ</string>
     <string name="settings_need_reboot">Изменение требует перезагрузки</string>
     <string name="settings_permission_denied">Отказано в доступе</string>
@@ -130,10 +130,10 @@
     <string name="settings_max_log_size">Размер буфера логов</string>
     <string name="settings_hide_icon">Скрыть иконку модуля на главном экране</string>
     <string name="settings_hide_icon_summary">Вы всё ещё сможете открывать приложение в Xposed менеджере</string>
-    <string name="settings_bypass_risky_package_warning">Bypass risky package warning</string>
-    <string name="settings_bypass_risky_package_warning_summary">Note that the devs are not responsible for risky package related issues before or after you enabled this feature</string>
-    <string name="settings_disable_activity_launch_protection">Disable Activity launch protection</string>
-    <string name="settings_disable_activity_launch_protection_summary">This toggle will lift all startActivity protections. If you\'re unsure, don\'t enable it.</string>
+    <string name="settings_bypass_risky_package_warning">Обойти предупреждение об опасном пакете</string>
+    <string name="settings_bypass_risky_package_warning_summary">Обратите внимание, что разработчики не несут ответственности за связанные с опасными пакетами проблемы до или после включения этой функции</string>
+    <string name="settings_disable_activity_launch_protection">Отключить защиту от запуска Activity</string>
+    <string name="settings_disable_activity_launch_protection_summary">Этот переключатель отключит всю защиту startActivity. Если вы не уверены, не включайте.</string>
     <string name="settings_language">Язык</string>
     <string name="settings_translate">Принять участие в переводе</string>
     <string name="settings_translate_summary">Помогите нам перевести %s на ваш язык</string>
@@ -158,7 +158,7 @@
     <!-- About -->
     <string name="about_description">        Хотя и неправильно определять наличие конкретных приложений, сейчас не каждое приложение, использующее root-права имеет поддержку случайного имени пакета. В этом случае обнаруженные приложения, использующие root-права (такие как Fake Location и Storage Isolation), будут равны обнаруженным root-правам.\n\nВ это же время некоторые умные приложения используют лазейки, чтобы получить список приложений и нарисовать себе вашу персону.\n\nЭто приложение предоставляет несколько методов для проверки того, насколько хорошо вы скрыли свой список приложений. Также это приложение может работать как Xposed модуль, чтобы скрыть какие-либо приложения или отклонять запросы на получение списка приложений для защиты вашей конфиденциальности.
     </string>
-    <string name="about_fork_description">        The original HMA project has become closed-source and their latest code didn\'t contain some of the latest changes, so I created this fork to continue it as open-source again.
+    <string name="about_fork_description">        Изначальный проект HMA стал закрытым, и в его последнем коде не было ряда последних изменений, поэтому я создал этот форк, чтобы снова развивать его как open-source.
     </string>
     <string name="about_how_to_use_title">Как использовать этот модуль</string>
     <string name="about_how_to_use_description_1">        Вы можете создать шаблоны в \"Управление шаблонами\".\nЗатем примените шаблоны к приложениям в \"Управление приложениями\". (Вы также можете выбрать дополнительные приложения для отдельных приложений.)\nВыбирайте ТОЛЬКО \"System Framework\" в настройках охвата этого Xposed-модуля / белого списка.
@@ -189,7 +189,7 @@
     <string name="color_brown">Коричневый</string>
     <string name="color_blue_grey">Серо-голубой</string>
     <!-- Dark theme modes -->
-    <string name="dark_theme">Dark theme</string>
-    <string name="dark_theme_off">Always off</string>
-    <string name="dark_theme_on">Always on</string>
+    <string name="dark_theme">Тёмная тема</string>
+    <string name="dark_theme_off">Всегда выключена</string>
+    <string name="dark_theme_on">Всегда включена</string>
 </resources>

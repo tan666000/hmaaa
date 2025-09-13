@@ -39,7 +39,7 @@
     <string name="home_manage">Manage</string>
     <string name="home_detection_test">Detection test</string>
     <string name="home_download_test_app_title">Download test app</string>
-    <string name="home_download_test_app_message">We have developed an individual detection test app and migrated detection test to it. Do you want to download it now?</string>
+    <string name="home_download_test_app_message"></string>
     <string name="home_backup_and_restore">Backup &amp; Restore</string>
     <string name="home_backup_config">Backup config</string>
     <string name="home_restore_config">Restore config</string>
@@ -76,7 +76,7 @@
     <string name="template_apps_visible_count">%d apps visible</string>
     <string name="template_apps_invisible_count">%d apps invisible</string>
     <!-- App settings -->
-    <string name="app_enable_hide">Enable hide</string>
+    <string name="app_enable_hide">Ativar ocultação</string>
     <string name="app_template_config">Template config</string>
     <string name="app_choose_template">Choose template</string>
     <string name="app_choose_preset">Choose preset</string>
@@ -90,7 +90,7 @@
     <string name="app_warning_risky_package_title">Risky package</string>
     <string name="app_warning_risky_package_desc">This package is marked as risky and you can cause issues on hidden apps. Do you want to continue?</string>
     <string name="app_spoof">Spoofing</string>
-    <string name="app_hide_installation_source">Spoof installation sources</string>
+    <string name="app_hide_installation_source">Spoof à origem da instalação</string>
     <string name="app_hide_installation_source_desc">All of user apps will be spoofed as installed over Play Store for this application</string>
     <string name="app_hide_installation_source_system">Spoof system apps too</string>
     <string name="app_hide_installation_source_system_desc">All of system apps will be spoofed as installed over nothing for this application</string>

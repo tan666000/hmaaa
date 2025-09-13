@@ -97,8 +97,8 @@
     <string name="app_exclude_target_installation_source">排除目标应用</string>
     <string name="app_exclude_target_installation_source_desc">如果此应用程序在Play商店不可用，您可以启用它</string>
     <string name="app_force_stop_warning">保存配置后强制停止目标应用程序</string>
-    <string name="app_invert_activity_launch_protection">Invert Activity launch protection</string>
-    <string name="app_invert_activity_launch_protection_desc">This option will invert \"Disable Activity launch protection\" selection in Settings.</string>
+    <string name="app_invert_activity_launch_protection">启动Activity保护</string>
+    <string name="app_invert_activity_launch_protection_desc">此选项将反转“设置”中的“禁用Activity启动保护”选项。</string>
     <!-- Presets -->
     <string name="title_preset_manage">显示预设</string>
     <string name="preset_xposed">LSPosed/Xposed 模块</string>
@@ -132,8 +132,8 @@
     <string name="settings_hide_icon_summary">你仍然可以在 Xposed 管理器中打开此应用</string>
     <string name="settings_bypass_risky_package_warning">绕过风险软件包警告</string>
     <string name="settings_bypass_risky_package_warning_summary">请注意，对于启用此功能之前或之后出现的与风险软件包相关的问题，开发人员概不负责</string>
-    <string name="settings_disable_activity_launch_protection">Disable Activity launch protection</string>
-    <string name="settings_disable_activity_launch_protection_summary">This toggle will lift all startActivity protections. If you\'re unsure, don\'t enable it.</string>
+    <string name="settings_disable_activity_launch_protection">禁用Activity启动保护</string>
+    <string name="settings_disable_activity_launch_protection_summary">此切换将解除所有startActivity保护。如果你不确定，不要启用它。</string>
     <string name="settings_language">语言</string>
     <string name="settings_translate">参与翻译</string>
     <string name="settings_translate_summary">帮助我们把 %s 翻译到你的语言</string>

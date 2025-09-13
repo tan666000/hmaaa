@@ -9,14 +9,14 @@
     <string name="title_app_select">Chọn ƯD</string>
     <string name="title_app_settings">Cài đặt ƯD</string>
     <string name="title_about">Giới thiệu</string>
-    <string name="title_about_fork">About this fork</string>
+    <string name="title_about_fork">Thông tin về bản fork này</string>
     <string name="do_not_dual">Không cài HMA lên người dùng thứ cấp</string>
     <string name="show_crash_log">Xem nhật ký lỗi</string>
     <string name="config_damaged">Chỉnh tệp đã hư. Hãy xóa dữ liệu ứng dụng</string>
     <string name="edit_list">Sửa danh sách</string>
     <string name="delete">Xóa</string>
     <string name="enabled">Bật</string>
-    <string name="disabled">Disabled</string>
+    <string name="disabled">Tắt</string>
     <string name="work_mode">Chế độ hoạt động</string>
     <string name="blacklist">DS đen</string>
     <string name="whitelist">DS trắng</string>
@@ -27,13 +27,13 @@
     <string name="yes">Có</string>
     <string name="no">Không</string>
     <string name="search">Tìm</string>
-    <string name="system">System</string>
-    <string name="follow_system">Follow system</string>
+    <string name="system">Hệ thống</string>
+    <string name="follow_system">Theo cài đặt hệ thống</string>
     <!-- Home -->
     <string name="home_xposed_activated">Mô đun đã kích hoạt [%s]</string>
-    <string name="home_xposed_not_activated">Mô đun ko kích hoạt</string>
+    <string name="home_xposed_not_activated">Mô đun không kích hoạt</string>
     <string name="home_xposed_service_on">Dịch vụ HMA đang chạy [%d]</string>
-    <string name="home_xposed_service_off">Dịch vụ HMA không chạy</string>
+    <string name="home_xposed_service_off">Dịch vụ xposed không chạy</string>
     <string name="home_xposed_service_old">Mô đun đã cập nhật, cần khởi động lại máy</string>
     <string name="home_xposed_filter_count">HMA-OSS đã lọc tổng cộng %d yêu cầu</string>
     <string name="home_manage">Quản lý</string>
@@ -60,53 +60,53 @@
     <string name="list_sort_by_package_name">Theo tên gói</string>
     <string name="list_sort_by_install_time">Bởi thời gian cài</string>
     <string name="list_sort_by_update_time">Theo thời gian cập nhật</string>
-    <string name="list_empty_no_enabled">Try enabling hiding for apps with this template\'s work mode and apps will appear here</string>
-    <string name="list_empty_no_apps">No applications found, maybe you didn\'t allow this app to query all packages</string>
+    <string name="list_empty_no_enabled">Hãy thử bật chế độ ẩn cho các ứng dụng có chế độ làm việc của biểu mẫu này, các ứng dụng đó sẽ xuất hiện ở đây</string>
+    <string name="list_empty_no_apps">Không tìm thấy ứng dụng nào, có thể bạn đã không cho phép ứng dụng này truy vấn những gói đã cài đặt</string>
     <string name="list_empty_preset">Không có ứng dụng nào được thêm vào cài đặt trước này</string>
     <!-- Manage templates -->
-    <string name="template_usage_hint">Establish templates for \"restless\" apps, controlling applist they can obtain.\n\nBlacklist (recommended): the apps selected in the template will be invisible to the apps applying the template.\nWhitelist: the apps not selected in the template will be invisible to the apps applying the template.</string>
+    <string name="template_usage_hint">Thiết lập mẫu cho các ứng dụng \"không dừng\", kiểm soát danh sách ứng dụng chúng có thể truy vấn.\n\nDanh sách đen (khuyến nghị): các ứng dụng được chọn trong mẫu sẽ ẩn đối với các ứng dụng áp dụng mẫu.\nDanh sách trắng: các ứng dụng không được chọn trong mẫu sẽ không hiển thị đối với các ứng dụng áp dụng mẫu.</string>
     <string name="template_new_blacklist">Tạo một mẫu danh sách đen</string>
     <string name="template_new_whitelist">Tạo một mẫu danh sách trắng</string>
     <string name="template_delete">Bạn có chắc chắn xóa mẫu không?</string>
     <string name="template_name">Tên mẫu</string>
     <string name="template_name_invalid">Tên không hợp lệ</string>
-    <string name="template_delete_title">Delete Template</string>
+    <string name="template_delete_title">Xóa biểu mẫu</string>
     <string name="template_name_already_exist">Tên mẫu đã tồn tại</string>
-    <string name="template_applied_count">Applied to %d apps</string>
+    <string name="template_applied_count">Đã áp dụng cho các ứng dụng: %d</string>
     <string name="template_apps_visible_count">%d ứng dụng hiện hình</string>
     <string name="template_apps_invisible_count">%d Ứng dụng vô hình</string>
     <!-- App settings -->
     <string name="app_enable_hide">Bật vô hình</string>
     <string name="app_template_config">Mục tùy chỉnh</string>
     <string name="app_choose_template">Chọn mục</string>
-    <string name="app_choose_preset">Choose preset</string>
+    <string name="app_choose_preset">Chọn thiết lập trước</string>
     <string name="app_exclude_system_apps">Trừ ứng dụng hệ thống</string>
     <string name="app_exclude_system_apps_summary">Chỉ tắt tùy chọn này khi cần thiết vì nó có thể gây sự cố nếu tắt</string>
     <string name="app_template_using">Đang dùng %d mục</string>
-    <string name="app_preset_using">Using %d presets</string>
-    <string name="app_settings_preset_using">Using %d settings presets</string>
+    <string name="app_preset_using">Đang sử dụng %d thiết lập trước</string>
+    <string name="app_settings_preset_using">Đang sử dụng %d cài đặt thiết lập trước</string>
     <string name="app_extra_apps_visible_count">Ứng dụng bổ sung hiện hình %d</string>
     <string name="app_extra_apps_invisible_count">Ứng dụng bổ sung vô hình %d</string>
-    <string name="app_warning_risky_package_title">Risky package</string>
-    <string name="app_warning_risky_package_desc">This package is marked as risky and you can cause issues on hidden apps. Do you want to continue?</string>
-    <string name="app_spoof">Spoofing</string>
-    <string name="app_hide_installation_source"></string>
-    <string name="app_hide_installation_source_desc"></string>
+    <string name="app_warning_risky_package_title">Gói rủi ro</string>
+    <string name="app_warning_risky_package_desc">Gói này được đánh dấu là rủi ro và bạn có thể gây ra lỗi cho các ứng dụng được ẩn. Bạn có muốn tiếp tục không?</string>
+    <string name="app_spoof">Giả lập</string>
+    <string name="app_hide_installation_source">Giả lập các nguồn cài đặt</string>
+    <string name="app_hide_installation_source_desc">Tất cả các ứng dụng của người dùng sẽ bị giả lập là đã cài đặt trên Play Store cho ứng dụng này</string>
     <string name="app_hide_installation_source_system">Giả lập luôn cho các ứng dụng hệ thống</string>
-    <string name="app_hide_installation_source_system_desc">All of system apps will be spoofed as installed over nothing for this application</string>
-    <string name="app_exclude_target_installation_source">Exclude the target app</string>
-    <string name="app_exclude_target_installation_source_desc">You can enable it if this app is not available at Play Store</string>
+    <string name="app_hide_installation_source_system_desc">Tất cả các ứng dụng hệ thống sẽ được giả lập là đã cài đặt từ Play Store cho ứng dụng này</string>
+    <string name="app_exclude_target_installation_source">Loại trừ ứng dụng mục tiêu(đang thiết lập)</string>
+    <string name="app_exclude_target_installation_source_desc">Bạn có thể bật nó nếu ứng dụng này không có sẵn trên Play Store</string>
     <string name="app_force_stop_warning">Đừng quên buộc dừng ứng dụng mục tiêu sau khi lưu cấu hình</string>
     <string name="app_invert_activity_launch_protection"></string>
-    <string name="app_invert_activity_launch_protection_desc">This option will invert \"Disable Activity launch protection\" selection in Settings.</string>
+    <string name="app_invert_activity_launch_protection_desc">Tùy chọn này sẽ đảo ngược lựa chọn \"Tắt bảo vệ khởi chạy hoạt động\" trong Cài đặt.</string>
     <!-- Presets -->
-    <string name="title_preset_manage">Show presets</string>
-    <string name="preset_xposed">LSPosed/Xposed modules</string>
-    <string name="preset_root_apps">Root managers/Rooted apps</string>
-    <string name="preset_custom_rom">Custom ROM apps</string>
+    <string name="title_preset_manage">Hiển thị các cài đặt trước</string>
+    <string name="preset_xposed">Các mô-đun LSPosed/Xposed</string>
+    <string name="preset_root_apps">Ứng dụng quản lý Root/ƯD được cấp Root</string>
+    <string name="preset_custom_rom">Ứng dụng ROM tùy biến</string>
     <!-- Settings preset names -->
-    <string name="settings_preset_accessibility">Accessibility</string>
-    <string name="settings_preset_dev_options">Developer options</string>
+    <string name="settings_preset_accessibility">Trợ năng</string>
+    <string name="settings_preset_dev_options">Tùy chọn nhà phát triển</string>
     <!-- Logs -->
     <string name="logs_save">Lưu nhật ký</string>
     <string name="logs_clear">Xóa nhật ký</string>
@@ -115,8 +115,8 @@
     <!-- Settings -->
     <string name="settings_module">Mô đun</string>
     <string name="settings_data_isolation">Data isolation</string>
-    <string name="settings_data_isolation_summary">App data: %s\nVold app data: %s\nForce mount: %s</string>
-    <string name="settings_data_isolation_unsupported">This option is only available on Android 11 and above</string>
+    <string name="settings_data_isolation_summary">Dữ liệu ứng dụng: %s\nDữ liệu ứng dụng phân vùng: %s\nBuộc gắn kết: %s</string>
+    <string name="settings_data_isolation_unsupported">Tùy chọn này chỉ khả dụng trên Android 11 trở lên</string>
     <string name="settings_app_data_isolation">App data isolation</string>
     <string name="settings_vold_app_data_isolation">Vold app data isolation</string>
     <string name="settings_warning">Warning</string>
@@ -187,7 +187,7 @@
     <string name="color_brown">Nâu</string>
     <string name="color_blue_grey">Xanh xám</string>
     <!-- Dark theme modes -->
-    <string name="dark_theme">Dark theme</string>
+    <string name="dark_theme">Giao diện tối</string>
     <string name="dark_theme_off">Always off</string>
     <string name="dark_theme_on">Always on</string>
 </resources>

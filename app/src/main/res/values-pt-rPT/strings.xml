@@ -82,17 +82,17 @@
     <string name="app_choose_preset">Escolher predefinições</string>
     <string name="app_exclude_system_apps">Excluir aplicações de sistema</string>
     <string name="app_exclude_system_apps_summary">Desative esta opção apenas quando realmente necessário. É provável que cause um erro com ela desativada.</string>
-    <string name="app_template_using">A utilizar %d modelos</string>
-    <string name="app_preset_using">A utilizar %d predefinições</string>
+    <string name="app_template_using">Usando %d modelos</string>
+    <string name="app_preset_using">Usando %d predefinições</string>
     <string name="app_settings_preset_using">A utilizar %d predefinições de definições</string>
-    <string name="app_extra_apps_visible_count">%d aplicações adicionais visíveis</string>
-    <string name="app_extra_apps_invisible_count">%d aplicações adicionais invisíveis</string>
+    <string name="app_extra_apps_visible_count">%d aplicativos adicionais visíveis</string>
+    <string name="app_extra_apps_invisible_count">%d aplicativos adicionais invisíveis</string>
     <string name="app_warning_risky_package_title">Pacote de risco</string>
     <string name="app_warning_risky_package_desc">Este pacote está marcado como de risco e pode causar problemas nas aplicações ocultas. Deseja continuar?</string>
     <string name="app_spoof">Mascarar</string>
     <string name="app_hide_installation_source">Mascarar a origem da instalação</string>
     <string name="app_hide_installation_source_desc">Para esta aplicação, a origem de instalação de todas as aplicações de utilizador será alterada para a Play Store.</string>
-    <string name="app_hide_installation_source_system">Mascarar também as aplicações de sistema</string>
+    <string name="app_hide_installation_source_system">Spoof os aplicativos do sistema também</string>
     <string name="app_hide_installation_source_system_desc">Para esta aplicação, a origem de instalação de todas as aplicações de sistema será alterada para nenhuma.</string>
     <string name="app_exclude_target_installation_source">Excluir a aplicação de destino</string>
     <string name="app_exclude_target_installation_source_desc">Pode ativar esta opção se esta aplicação não estiver disponível na Play Store.</string>
@@ -115,11 +115,11 @@
     <!-- Settings -->
     <string name="settings_module">Módulo</string>
     <string name="settings_data_isolation">Isolamento de dados</string>
-    <string name="settings_data_isolation_summary">Dados da aplicação: %s\nDados da aplicação Vold: %s\nForçar montagem: %s</string>
+    <string name="settings_data_isolation_summary">Dados da aplicação: %s\nDados Vold das aplicações : %s\nForçar montagem: %s</string>
     <string name="settings_data_isolation_unsupported">Esta opção só está disponível no Android 11 ou superior</string>
     <string name="settings_app_data_isolation">Isolamento de dados da aplicação</string>
-    <string name="settings_vold_app_data_isolation">Isolamento de dados da aplicação Vold</string>
-    <string name="settings_warning">Atenção</string>
+    <string name="settings_vold_app_data_isolation">Isolamento dos dados Vold da aplicação</string>
+    <string name="settings_warning">Aviso</string>
     <string name="settings_vold_warning">Isto irá ativar uma funcionalidade AOSP que isola o diretório de armazenamento privado externo da aplicação. Pode ajudar a melhorar a ocultação de aplicações, mas poderá causar problemas de estabilidade. Esta funcionalidade pode deixar de funcionar a qualquer momento, uma vez que foi abandonada no AOSP.</string>
     <string name="settings_change_require_root">A alteração requer permissão de root</string>
     <string name="settings_need_reboot">A alteração requer o reinício do dispositivo</string>
@@ -157,13 +157,14 @@
     <string name="settings_receive_beta_update_summary">A versão beta pode ser instável</string>
     <!-- About -->
     <string name="about_description">Embora seja incorreto detetar a instalação de aplicações específicas, nem todas as aplicações que usam root oferecem suporte para nomes de pacotes aleatórios. Neste caso, detetar aplicações que usam root (como a Fake Location e a Storage Isolation) equivale a detetar o próprio root.\n\nAo mesmo tempo, algumas aplicações mais inteligentes aproveitam várias falhas para obter a sua lista de aplicações, de modo a traçar um perfil seu.\n\nEste módulo fornece alguns métodos para testar se já ocultou bem a sua lista de aplicações. Além disso, pode funcionar como um módulo Xposed para ocultar algumas aplicações ou rejeitar pedidos de acesso à lista de aplicações para proteger a sua privacidade.    </string>
-    <string name="about_fork_description"></string>
+    <string name="about_fork_description">        O projeto original HMA passou a ser de código fechado e a sua versão mais recente não incluía algumas das últimas alterações, portanto, criei este fork para o continuar como um projeto de código aberto.
+    </string>
     <string name="about_how_to_use_title">Como usar este módulo</string>
     <string name="about_how_to_use_description_1">        Pode criar modelos em \"Gerir modelos\".\nDepois, aplique os modelos a aplicações em \"Gerir aplicações\". (Também pode selecionar aplicações extra para os alvos.)\nDeve e APENAS deve marcar \"System Framework\" no âmbito do módulo Xposed / lista branca.
     </string>
-    <string name="about_how_to_use_description_2">        Config modification effective in real time.
+    <string name="about_how_to_use_description_2">As alterações à configuração são aplicadas em tempo real.
     </string>
-    <string name="about_developer">Programador</string>
+    <string name="about_developer">Desenvolvedor</string>
     <string name="about_support">Suporte e feedback</string>
     <string name="about_open_source">Licenças de código aberto</string>
     <!-- Colors -->

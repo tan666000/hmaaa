@@ -99,7 +99,7 @@
     <string name="app_force_stop_warning">保存配置后强制停止目标应用程序</string>
     <string name="app_invert_activity_launch_protection">反向活动启动保护</string>
     <string name="app_invert_activity_launch_protection_desc">此选项将反转 “设置 ”中的 “禁用活动启动保护”选项。</string>
-    <string name="app_global_activity_launch_protection_state">Protection is %s globally</string>
+    <string name="app_global_activity_launch_protection_state">保护范围为 %s 全局</string>
     <!-- Presets -->
     <string name="title_preset_manage">显示预设</string>
     <string name="preset_xposed">LSPosed/Xposed 模块</string>
@@ -115,10 +115,10 @@
     <string name="logs_saved">日志已保存</string>
     <!-- Settings -->
     <string name="settings_module">模块</string>
-    <string name="settings_overwrite">Overwrite</string>
-    <string name="settings_overwritten">Overwritten</string>
-    <string name="settings_overwrite_summary">This category items will be forced as enabled if the switches are checked</string>
-    <string name="settings_default_value">Default value: %s</string>
+    <string name="settings_overwrite">覆盖</string>
+    <string name="settings_overwritten">已覆盖</string>
+    <string name="settings_overwrite_summary">如果开启开关，则此类项目将被强制启用</string>
+    <string name="settings_default_value">默认值：%s</string>
     <string name="settings_data_isolation">数据隔离</string>
     <string name="settings_data_isolation_summary">App data：%s\nVold app data：%s\n强制挂载：%s</string>
     <string name="settings_data_isolation_unsupported">此选项仅适用于 Android 11 及以上版本的系统</string>

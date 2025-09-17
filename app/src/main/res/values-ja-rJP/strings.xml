@@ -99,6 +99,7 @@
     <string name="app_force_stop_warning">設定を保存した後に対象のアプリを強制終了することを忘れないでください</string>
     <string name="app_invert_activity_launch_protection">アクティビティ起動保護を反転する</string>
     <string name="app_invert_activity_launch_protection_desc">このオプションは、設定の「アクティビティ起動保護を無効にする」の選択を反転します。</string>
+    <string name="app_global_activity_launch_protection_state">Protection is %s globally</string>
     <!-- Presets -->
     <string name="title_preset_manage">プリセットを表示</string>
     <string name="preset_xposed">LSPosed/Xposed モジュール</string>
@@ -114,6 +115,10 @@
     <string name="logs_saved">ログを保存しました</string>
     <!-- Settings -->
     <string name="settings_module">モジュール</string>
+    <string name="settings_overwrite">Overwrite</string>
+    <string name="settings_overwritten">Overwritten</string>
+    <string name="settings_overwrite_summary">This category items will be forced as enabled if the switches are checked</string>
+    <string name="settings_default_value">Default value: %s</string>
     <string name="settings_data_isolation">データ分離</string>
     <string name="settings_data_isolation_summary">アプリデータ: %s\nVold アプリデータ: %s\n強制マウント: %s</string>
     <string name="settings_data_isolation_unsupported">このオプションは Android 11 以上で使用できます</string>

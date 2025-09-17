@@ -99,6 +99,7 @@
     <string name="app_force_stop_warning">Don\'t forget to force stop the target app after saving the configuration</string>
     <string name="app_invert_activity_launch_protection">Invert Activity launch protection</string>
     <string name="app_invert_activity_launch_protection_desc">This option will invert \"Disable Activity launch protection\" selection in Settings.</string>
+    <string name="app_global_activity_launch_protection_state">Protection is %s globally</string>
     <!-- Presets -->
     <string name="title_preset_manage">Show presets</string>
     <string name="preset_xposed">LSPosed/Xposed modules</string>
@@ -114,6 +115,10 @@
     <string name="logs_saved">Journeaux sauvegardés</string>
     <!-- Settings -->
     <string name="settings_module">Module</string>
+    <string name="settings_overwrite">Overwrite</string>
+    <string name="settings_overwritten">Overwritten</string>
+    <string name="settings_overwrite_summary">This category items will be forced as enabled if the switches are checked</string>
+    <string name="settings_default_value">Default value: %s</string>
     <string name="settings_data_isolation">Isolation des données</string>
     <string name="settings_data_isolation_summary">App data: %s\nVold app data: %s\nForce mount: %s</string>
     <string name="settings_data_isolation_unsupported">Cette option est uniquement disponible sur Android 11 et supérieur</string>

@@ -99,6 +99,7 @@
     <string name="app_force_stop_warning">Não se esqueça de forçar a paragem da aplicação de destino depois de guardar a configuração</string>
     <string name="app_invert_activity_launch_protection">Inverter proteção de início de Atividade</string>
     <string name="app_invert_activity_launch_protection_desc">Esta opção irá inverter a seleção \"Desativar proteção de início de Atividade\" nas Definições.</string>
+    <string name="app_global_activity_launch_protection_state">Protection is %s globally</string>
     <!-- Presets -->
     <string name="title_preset_manage">Mostrar predefinições</string>
     <string name="preset_xposed">Módulos LSPosed/Xposed</string>
@@ -114,6 +115,10 @@
     <string name="logs_saved">Registos guardados</string>
     <!-- Settings -->
     <string name="settings_module">Módulo</string>
+    <string name="settings_overwrite">Overwrite</string>
+    <string name="settings_overwritten">Overwritten</string>
+    <string name="settings_overwrite_summary">This category items will be forced as enabled if the switches are checked</string>
+    <string name="settings_default_value">Default value: %s</string>
     <string name="settings_data_isolation">Isolamento de dados</string>
     <string name="settings_data_isolation_summary">Dados da aplicação: %s\nDados Vold das aplicações : %s\nForçar montagem: %s</string>
     <string name="settings_data_isolation_unsupported">Esta opção só está disponível no Android 11 ou superior</string>

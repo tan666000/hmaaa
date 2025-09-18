@@ -99,7 +99,7 @@
     <string name="app_force_stop_warning">No olvide forzar detención a la aplicación objetivo después de guardar la configuración</string>
     <string name="app_invert_activity_launch_protection">Invertir protección de Activity launch</string>
     <string name="app_invert_activity_launch_protection_desc">Esta opción invertirá la selección de \"Desactivar la protección de Activity launch\" en Ajustes.</string>
-    <string name="app_global_activity_launch_protection_state">Protection is %s globally</string>
+    <string name="app_global_activity_launch_protection_state">La protección es %s globalmente</string>
     <!-- Presets -->
     <string name="title_preset_manage">Mostrar presets</string>
     <string name="preset_xposed">Módulos LSPosed/Xposed</string>
@@ -115,10 +115,10 @@
     <string name="logs_saved">Logs guardados</string>
     <!-- Settings -->
     <string name="settings_module">Módulo</string>
-    <string name="settings_overwrite">Overwrite</string>
-    <string name="settings_overwritten">Overwritten</string>
-    <string name="settings_overwrite_summary">This category items will be forced as enabled if the switches are checked</string>
-    <string name="settings_default_value">Default value: %s</string>
+    <string name="settings_overwrite">Sobreescribir</string>
+    <string name="settings_overwritten">Sobreescrito</string>
+    <string name="settings_overwrite_summary">Los elementos de esta categoría serán forzados como habilitados si los interruptores son marcados</string>
+    <string name="settings_default_value">Valor por defecto: %s</string>
     <string name="settings_data_isolation">Aislamiento de datos</string>
     <string name="settings_data_isolation_summary">Datos de aplicación: %s\nDatos de la aplicación Vold: %s\nForzar montaje: %s</string>
     <string name="settings_data_isolation_unsupported">Esta opción solo está disponible en Android 11 y superior</string>

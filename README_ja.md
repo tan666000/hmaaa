@@ -7,9 +7,10 @@
 [![Channel](https://img.shields.io/badge/Telegram-Channel-blue.svg?logo=telegram)](https://t.me/aerathfuns)
 [![License](https://img.shields.io/github/license/frknkrc44/HMA-OSS?label=License)](https://choosealicense.com/licenses/gpl-3.0/)
 
-- English  
+- [English](README.md)
 - [中文（简体）](README_zh_CN.md)
 - [Türkçe](README_tr.md)
+- 日本語
 
 ## このモジュールについて
 

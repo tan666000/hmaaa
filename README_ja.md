@@ -11,16 +11,16 @@
 - [中文（简体）](README_zh_CN.md)
 - [Türkçe](README_tr.md)
 
-## About this module
+## このモジュールについて
 
-Although it's bad practice to detect the installation of specific apps, not every app using root provides random package name support. In this case, if apps related to root (such as Fake Location and Storage Isolation) are detected, it is tantamount to detecting that the device is rooted.
+特定のアプリのインストールを検出することは好ましい方法ではありませんが、root 権限を使用するすべてのアプリがランダムなパッケージ名に対応しているとは限りません。このような場合、Fake Location や Storage Isolation などの root 権限に関連するアプリが検出されると、そのデバイスは root 化されているものとみなされます。
 
-Additionally, some apps use various loopholes to acquire your app list, in order to use it as fingerprinting data or for other nefarious purposes.
+さらに、一部のアプリはさまざまな抜け穴を利用してアプリリストを取得し、それをフィンガープリンティングデータとして使用したり、その他の不正な目的に使用したりします。
 
-This module can work as an Xposed module to hide apps or reject app list requests.
+このモジュールは、アプリを非表示にしたり、アプリリストの要求を拒否したりする Xposed モジュールとして機能します。
 
-## I want to contribute translation
-You can contribute translation [here](https://crowdin.com/project/frknkrc44-hma-oss).
+## 翻訳に貢献する
+[こちら](https://crowdin.com/project/frknkrc44-hma-oss)から翻訳に貢献することができます。
 
-## Update log
-[Reference to the commits page](https://github.com/frknkrc44/HMA-OSS/commits)  
+## 更新ログ
+[コミットページへの参照](https://github.com/frknkrc44/HMA-OSS/commits)  

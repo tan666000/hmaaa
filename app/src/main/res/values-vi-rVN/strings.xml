@@ -99,7 +99,7 @@
     <string name="app_force_stop_warning">Đừng quên buộc dừng ứng dụng mục tiêu sau khi lưu cấu hình</string>
     <string name="app_invert_activity_launch_protection"></string>
     <string name="app_invert_activity_launch_protection_desc">Tùy chọn này sẽ đảo ngược lựa chọn \"Tắt bảo vệ khởi chạy hoạt động\" trong Cài đặt.</string>
-    <string name="app_global_activity_launch_protection_state">Protection is %s globally</string>
+    <string name="app_global_activity_launch_protection_state">Bảo vệ đang được %s toàn hệ thống</string>
     <!-- Presets -->
     <string name="title_preset_manage">Hiển thị các cài đặt trước</string>
     <string name="preset_xposed">Các mô-đun LSPosed/Xposed</string>
@@ -115,10 +115,10 @@
     <string name="logs_saved">Đã lưu nhật ký</string>
     <!-- Settings -->
     <string name="settings_module">Mô đun</string>
-    <string name="settings_overwrite">Overwrite</string>
-    <string name="settings_overwritten">Overwritten</string>
-    <string name="settings_overwrite_summary">This category items will be forced as enabled if the switches are checked</string>
-    <string name="settings_default_value">Default value: %s</string>
+    <string name="settings_overwrite">Ghi đè</string>
+    <string name="settings_overwritten">Bị ghi đè</string>
+    <string name="settings_overwrite_summary">Các mục trong danh mục này sẽ bị buộc phải bật nếu các công tắc được chọn</string>
+    <string name="settings_default_value">Giá trị mặc định: %s</string>
     <string name="settings_data_isolation">Cách ly dữ liệu</string>
     <string name="settings_data_isolation_summary">Dữ liệu ứng dụng: %s\nDữ liệu ứng dụng phân vùng: %s\nBuộc gắn kết: %s</string>
     <string name="settings_data_isolation_unsupported">Tùy chọn này chỉ khả dụng trên Android 11 trở lên</string>

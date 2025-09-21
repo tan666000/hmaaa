@@ -105,6 +105,7 @@
     <string name="preset_xposed">Modul LSPosed/Xposed</string>
     <string name="preset_root_apps">Manajer root/Aplikasi root</string>
     <string name="preset_custom_rom">Aplikasi ROM kustom</string>
+    <string name="preset_sus_apps">Suspicious apps</string>
     <!-- Settings preset names -->
     <string name="settings_preset_accessibility">Aksesibilitas</string>
     <string name="settings_preset_dev_options">Opsi pengembang</string>

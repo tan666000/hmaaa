@@ -28,7 +28,7 @@
     <string name="no">Nein</string>
     <string name="search">Suchen</string>
     <string name="system">System</string>
-    <string name="follow_system">Follow system</string>
+    <string name="follow_system">Systemeinstellung folgen</string>
     <!-- Home -->
     <string name="home_xposed_activated">Modul aktiviert [%s]</string>
     <string name="home_xposed_not_activated">Modul nicht aktiviert</string>
@@ -68,7 +68,7 @@
     <string name="template_new_blacklist">Create a blacklist template</string>
     <string name="template_new_whitelist">Create a whitelist template</string>
     <string name="template_delete">Are you sure to delete the template?</string>
-    <string name="template_name">Template name</string>
+    <string name="template_name">Name der Vorlage</string>
     <string name="template_name_invalid">Ungültiger Name</string>
     <string name="template_delete_title">Vorlage löschen</string>
     <string name="template_name_already_exist">Es existiert bereits eine Vorlage mit diesem Namen</string>
@@ -119,14 +119,14 @@
     <string name="settings_overwrite">Überschreiben</string>
     <string name="settings_overwritten">Überschrieben</string>
     <string name="settings_overwrite_summary">This category items will be forced as enabled if the switches are checked</string>
-    <string name="settings_default_value">Default value: %s</string>
+    <string name="settings_default_value">Standardwert: %s</string>
     <string name="settings_data_isolation">Daten-Isolation</string>
-    <string name="settings_data_isolation_summary">App data: %s\nVold app data: %s\nForce mount: %s</string>
-    <string name="settings_data_isolation_unsupported">This option is only available on Android 11 and above</string>
-    <string name="settings_app_data_isolation">App data isolation</string>
-    <string name="settings_vold_app_data_isolation">Vold app data isolation</string>
+    <string name="settings_data_isolation_summary">App-Daten: %s\nVold App-Daten: %s\nErzwinge Einhängen: %s</string>
+    <string name="settings_data_isolation_unsupported">Diese Option ist nur für Android 11 und höher verfügbar</string>
+    <string name="settings_app_data_isolation">Anwendungsdatenisolation</string>
+    <string name="settings_vold_app_data_isolation">Vold-App-Datenisolation</string>
     <string name="settings_warning">Warnung</string>
-    <string name="settings_vold_warning">This will enable an AOSP feature which make app\'s external private storage directory isolated. This can help improve hiding apps while may cause stability issues. This feature may stop working at any time since it is abandoned in AOSP.</string>
+    <string name="settings_vold_warning">Dadurch wird eine AOSP-Funktion aktiviert, die das externe private Speicherverzeichnis von Apps isoliert. Dies kann helfen, das Verstecken von Apps zu verbessern, kann aber auch Stabilitätsprobleme verursachen. Diese Funktion kann jederzeit aufhören zu funktionieren, da sie in AOSP aufgegeben wird.</string>
     <string name="settings_change_require_root">Changing requires root permission</string>
     <string name="settings_need_reboot">Changing requires reboot</string>
     <string name="settings_permission_denied">Zugriff verweigert</string>
@@ -171,12 +171,12 @@
     </string>
     <string name="about_how_to_use_description_2">        Config modification effective in real time.
     </string>
-    <string name="about_developer">Developer</string>
+    <string name="about_developer">Entwickler</string>
     <string name="about_support">Hilfe und Rückmeldung</string>
     <string name="about_open_source">Open-Source-Lizenzen</string>
     <!-- Colors -->
     <string name="color_sakura">Sakura</string>
-    <string name="color_red">Red</string>
+    <string name="color_red">Rot</string>
     <string name="color_pink">Pink</string>
     <string name="color_purple">Purple</string>
     <string name="color_deep_purple">Deep purple</string>

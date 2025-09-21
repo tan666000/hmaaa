@@ -53,7 +53,7 @@
     <string name="home_new_update">Pembaruan baru tersedia: %s</string>
     <string name="home_update">Memperbarui: %s</string>
     <!-- App select -->
-    <string name="list_show_system">Tampilkan aplikasi sistem</string>
+    <string name="list_show_system">Tampilkan apl sistem</string>
     <string name="list_sorting">Urutkan</string>
     <string name="list_reverse_order">Urutkan terbalik</string>
     <string name="list_sort_by_label">Nama aplikasi</string>
@@ -61,10 +61,10 @@
     <string name="list_sort_by_install_time">Waktu instalasi</string>
     <string name="list_sort_by_update_time">Waktu pembaruan</string>
     <string name="list_empty_no_enabled">Coba aktifkan penyembunyian untuk aplikasi dengan mode kerja templat ini dan aplikasi akan muncul di sini</string>
-    <string name="list_empty_no_apps">Tidak ada aplikasi yang ditemukan, mungkin anda tidak mengizinkan aplikasi ini untuk mengakses semua paket</string>
-    <string name="list_empty_preset">Tidak ada aplikasi yang ditambahkan dalam preset ini</string>
+    <string name="list_empty_no_apps">Tidak ada apl yang ditemukan, mungkin anda tidak mengizinkan apl ini untuk mengakses semua paket</string>
+    <string name="list_empty_preset">Tidak ada apl yang ditambahkan dalam preset ini</string>
     <!-- Manage templates -->
-    <string name="template_usage_hint">Buat templat untuk aplikasi \"berisiko\", guna mengontrol akses daftar aplikasi.\n\nBlacklist (disarankan): aplikasi yang dipilih dalam templat akan tersembunyi dari aplikasi yang menerapkan templat tersebut.\nWhitelist: aplikasi yang tidak dipilih dalam templat akan tersembunyi oleh aplikasi yang menerapkan templat tersebut.</string>
+    <string name="template_usage_hint">Buat templat untuk apl \"berisiko\", guna mengontrol akses daftar apl.\n\nBlacklist (disarankan): apl yang dipilih dalam templat akan tersembunyi dari apl yang menerapkan templat tersebut.\nWhitelist: apl yang tidak dipilih dalam templat akan tersembunyi oleh apl yang menerapkan templat tersebut.</string>
     <string name="template_new_blacklist">Buat templat blacklist</string>
     <string name="template_new_whitelist">Buat templat whitelist</string>
     <string name="template_delete">Apakah anda yakin ingin menghapus templat tersebut?</string>
@@ -91,12 +91,12 @@
     <string name="app_warning_risky_package_desc">Paket ini ditandai sebagai berisiko dan dapat menyebabkan masalah pada aplikasi tersembunyi. Apakah anda ingin melanjutkan?</string>
     <string name="app_spoof">Spoofing</string>
     <string name="app_hide_installation_source">Sumber instalasi spoof</string>
-    <string name="app_hide_installation_source_desc">Semua aplikasi pengguna akan di-spoof seolah-olah terpasang di Play Store untuk aplikasi ini</string>
+    <string name="app_hide_installation_source_desc">Semua apl pengguna akan di-spoof seolah-olah terpasang di Play Store untuk apl ini</string>
     <string name="app_hide_installation_source_system">Spoof apl sistem juga</string>
-    <string name="app_hide_installation_source_system_desc">Semua aplikasi sistem akan di-spoof seolah-olah terpasang tanpa alasan apa pun untuk aplikasi ini</string>
-    <string name="app_exclude_target_installation_source">Kecualikan aplikasi target</string>
-    <string name="app_exclude_target_installation_source_desc">Anda dapat mengaktifkannya jika aplikasi ini tidak tersedia di Play Store</string>
-    <string name="app_force_stop_warning">Jangan lupa untuk menghentikan paksa aplikasi target setelah menyimpan konfigurasi</string>
+    <string name="app_hide_installation_source_system_desc">Semua apl sistem akan di-spoof seolah-olah terpasang tanpa alasan apa pun untuk apl ini</string>
+    <string name="app_exclude_target_installation_source">Kecualikan target apl</string>
+    <string name="app_exclude_target_installation_source_desc">Anda dapat mengaktifkannya jika apl ini tidak tersedia di Play Store</string>
+    <string name="app_force_stop_warning">Jangan lupa untuk menghentikan paksa target apl setelah menyimpan konfigurasi</string>
     <string name="app_invert_activity_launch_protection">Ubah proteksi peluncuran Activity</string>
     <string name="app_invert_activity_launch_protection_desc">Opsi ini akan mengubah pilihan \"Nonaktifkan proteksi peluncuran Activity\" di Pengaturan.</string>
     <string name="app_global_activity_launch_protection_state">Perlindungan %s secara universal</string>
@@ -105,7 +105,7 @@
     <string name="preset_xposed">Modul LSPosed/Xposed</string>
     <string name="preset_root_apps">Manajer root/Aplikasi root</string>
     <string name="preset_custom_rom">Aplikasi ROM kustom</string>
-    <string name="preset_sus_apps">Suspicious apps</string>
+    <string name="preset_sus_apps">Aplikasi mencurigakan</string>
     <!-- Settings preset names -->
     <string name="settings_preset_accessibility">Aksesibilitas</string>
     <string name="settings_preset_dev_options">Opsi pengembang</string>

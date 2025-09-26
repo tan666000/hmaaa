@@ -35,7 +35,7 @@
     <string name="home_xposed_service_on">System Service läuft [%d]</string>
     <string name="home_xposed_service_off">System Service läuft nicht</string>
     <string name="home_xposed_service_old">Module aktualisiert, Neustart benötigt</string>
-    <string name="home_xposed_filter_count">Verstecke meine Appliste hat insgesamt %d anfragen gefiltert</string>
+    <string name="home_xposed_filter_count">HMA-OSS hat insgesamt %d Anfragen gefiltert</string>
     <string name="home_manage">Verwalten</string>
     <string name="home_detection_test">Erkennungstest</string>
     <string name="home_download_test_app_title">Test App herunterladen</string>
@@ -62,11 +62,11 @@
     <string name="list_sort_by_update_time">Nach Aktualisierungszeitpunkt</string>
     <string name="list_empty_no_enabled">Versuchen Sie das Verstecken von Apps mit dem Arbeitsmodus dieser Vorlage zu aktivieren und Apps werden hier angezeigt</string>
     <string name="list_empty_no_apps">Keine Anwendungen gefunden, möglicherweise haben Sie dieser App nicht erlaubt, alle Pakete abzufragen</string>
-    <string name="list_empty_preset">Keine Anwendungen hinzugefügt</string>
+    <string name="list_empty_preset">Keine Anwendungen in dieser Vorlage hinzugefügt</string>
     <!-- Manage templates -->
     <string name="template_usage_hint">Erstellen Sie Vorlagen für \"ruhelose\" Apps und kontrollieren Sie den App, den Sie erhalten können.\n\nBlacklist (empfohlen): Die im Template ausgewählten Apps werden für die Apps, die die Vorlage anwenden, unsichtbar sein.\nWhitelist: Die im Template nicht ausgewählten Apps sind für die Apps, die die Vorlage anwenden, unsichtbar.</string>
-    <string name="template_new_blacklist">Eine Blacklist-Vorlage erstellen</string>
-    <string name="template_new_whitelist">Eine Whitelist-Vorlage erstellen</string>
+    <string name="template_new_blacklist">Blacklist erstellen</string>
+    <string name="template_new_whitelist">Eine Whitelist erstellen</string>
     <string name="template_delete">Sind Sie sicher, dass Sie die Vorlage löschen wollen?</string>
     <string name="template_name">Name der Vorlage</string>
     <string name="template_name_invalid">Ungültiger Name</string>
@@ -88,17 +88,17 @@
     <string name="app_extra_apps_visible_count">%d weitere Apps sichtbar</string>
     <string name="app_extra_apps_invisible_count">%d weitere Anwendungen unsichtbar</string>
     <string name="app_warning_risky_package_title">Gefährliches Paket</string>
-    <string name="app_warning_risky_package_desc">This package is marked as risky and you can cause issues on hidden apps. Do you want to continue?</string>
+    <string name="app_warning_risky_package_desc">Dieses Paket ist als riskant markiert und kann Probleme in versteckten Anwendungen verursachen. Möchten Sie fortfahren?</string>
     <string name="app_spoof">Täuschen</string>
     <string name="app_hide_installation_source">Spoof installation sources</string>
     <string name="app_hide_installation_source_desc">All of user apps will be spoofed as installed over Play Store for this application</string>
-    <string name="app_hide_installation_source_system">Spoof system apps too</string>
+    <string name="app_hide_installation_source_system">Täusche System-Anwendungen ebenfalls</string>
     <string name="app_hide_installation_source_system_desc">All of system apps will be spoofed as installed over nothing for this application</string>
     <string name="app_exclude_target_installation_source">Ziel-App ausschließen</string>
     <string name="app_exclude_target_installation_source_desc">Sie können es aktivieren, wenn diese App im Play Store nicht verfügbar ist</string>
     <string name="app_force_stop_warning">Vergessen Sie nicht, die Ziel-App nach dem Speichern der Konfiguration zu beenden</string>
     <string name="app_invert_activity_launch_protection">Invert Activity launch protection</string>
-    <string name="app_invert_activity_launch_protection_desc">This option will invert \"Disable Activity launch protection\" selection in Settings.</string>
+    <string name="app_invert_activity_launch_protection_desc">Diese Option wird die Auswahl \"Aktivitätsstartschutz deaktivieren\" in den Einstellungen umkehren.</string>
     <string name="app_global_activity_launch_protection_state">Der Schutz ist %s global</string>
     <!-- Presets -->
     <string name="title_preset_manage">Zeige Voreinstellungen</string>
@@ -148,14 +148,14 @@
     <string name="settings_theme_color">Themenfarbe</string>
     <string name="settings_dark_theme">Dunkles Farbschema</string>
     <string name="settings_pure_black_dark_theme">Pure black dark theme</string>
-    <string name="settings_pure_black_dark_theme_summary">Use the pure black theme if dark theme is enabled</string>
+    <string name="settings_pure_black_dark_theme_summary">Schwarzes Thema verwenden, wenn dunkles Thema aktiviert ist</string>
     <string name="settings_service">Service</string>
     <string name="settings_stop_system_service">Stoppe Systemdienste</string>
     <string name="settings_stop_system_service_summary">Neustart erforderlich</string>
     <string name="settings_is_clean_env">Clean runtime environment at the same time?</string>
     <string name="settings_is_clean_env_summary">System Service Cache in /data/misc/hide_my_applist_* entfernen. Das heißt, dass du die Modul-App nach dem nächsten Neustart selbst starten musst, um das Abfangen zu aktivieren und die Abfangzahlen werden auch bereinigt.</string>
     <string name="settings_force_clean_env">Reinigung der Laufzeitumgebung erzwingen (Root)</string>
-    <string name="settings_force_clean_env_summary">Only if system service fails to start, otherwise you should click the above option.</string>
+    <string name="settings_force_clean_env_summary">Nur wenn der Systemdienst nicht startet, ansonsten sollten Sie auf die obige Option klicken.</string>
     <string name="settings_force_clean_env_toast_successful">Laufzeitumgebung gelöscht</string>
     <string name="settings_update">Aktualisierung</string>
     <string name="settings_disable_update">Updatebenachrichtigung deaktivieren</string>

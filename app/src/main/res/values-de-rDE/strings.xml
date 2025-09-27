@@ -179,20 +179,20 @@
     <string name="color_sakura">Sakura</string>
     <string name="color_red">Rot</string>
     <string name="color_pink">Rosa</string>
-    <string name="color_purple">Purple</string>
-    <string name="color_deep_purple">Deep purple</string>
+    <string name="color_purple">Lila</string>
+    <string name="color_deep_purple">Dunkellila</string>
     <string name="color_indigo">Indigo</string>
     <string name="color_blue">Blau</string>
     <string name="color_light_blue">Hellblau</string>
     <string name="color_cyan">Türkis</string>
     <string name="color_teal">Türkis</string>
     <string name="color_green">Grün</string>
-    <string name="color_light_green">Light green</string>
-    <string name="color_lime">Lime</string>
+    <string name="color_light_green">Helles Grün</string>
+    <string name="color_lime">Hellgrün</string>
     <string name="color_yellow">Gelb</string>
-    <string name="color_amber">Amber</string>
+    <string name="color_amber">Bernsteingelb</string>
     <string name="color_orange">Orange</string>
-    <string name="color_deep_orange">Deep orange</string>
+    <string name="color_deep_orange">Dunkles Orange</string>
     <string name="color_brown">Braun</string>
     <string name="color_blue_grey">Blaugrau</string>
     <!-- Dark theme modes -->

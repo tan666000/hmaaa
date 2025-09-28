@@ -4,7 +4,7 @@
     <string name="title_logs">Protokolle</string>
     <string name="title_settings">Einstellungen</string>
     <string name="title_template_manage">Sperr- und Freigabelisten</string>
-    <string name="title_template_settings">Vorlage Einstellungen</string>
+    <string name="title_template_settings">Vorlage verwalten</string>
     <string name="title_app_manage">Anwendungen verwalten</string>
     <string name="title_app_select">Apps auswählen</string>
     <string name="title_app_settings">App Einstellungen</string>
@@ -66,7 +66,7 @@
     <!-- Manage templates -->
     <string name="template_usage_hint">Erstellen Sie Vorlagen für \"ruhelose\" Apps und kontrollieren Sie den App, den Sie erhalten können.\n\nBlacklist (empfohlen): Die im Template ausgewählten Apps werden für die Apps, die die Vorlage anwenden, unsichtbar sein.\nWhitelist: Die im Template nicht ausgewählten Apps sind für die Apps, die die Vorlage anwenden, unsichtbar.</string>
     <string name="template_new_blacklist">Blacklist erstellen</string>
-    <string name="template_new_whitelist">Eine Whitelist erstellen</string>
+    <string name="template_new_whitelist">Whitelist</string>
     <string name="template_delete">Sind Sie sicher, dass Sie die Vorlage löschen wollen?</string>
     <string name="template_name">Name der Vorlage</string>
     <string name="template_name_invalid">Ungültiger Name</string>
@@ -147,7 +147,7 @@
     <string name="settings_system_theme_color">System-Design-Farbe</string>
     <string name="settings_theme_color">Themenfarbe</string>
     <string name="settings_dark_theme">Dunkles Farbschema</string>
-    <string name="settings_pure_black_dark_theme">Pure black dark theme</string>
+    <string name="settings_pure_black_dark_theme">Schwarzes Thema</string>
     <string name="settings_pure_black_dark_theme_summary">Schwarzes Thema verwenden, wenn dunkles Thema aktiviert ist</string>
     <string name="settings_service">Service</string>
     <string name="settings_stop_system_service">Stoppe Systemdienste</string>

@@ -1,10 +1,3 @@
-import com.android.build.gradle.internal.api.BaseVariantOutputImpl
-import com.google.gson.JsonParser
-import org.jose4j.json.internal.json_simple.JSONObject
-import java.io.DataInputStream
-import java.net.HttpURLConnection
-import java.net.URL
-
 plugins {
     alias(libs.plugins.agp.app)
     alias(libs.plugins.autoresconfig)
@@ -15,51 +8,10 @@ plugins {
     alias(libs.plugins.nav.safeargs.kotlin)
 }
 
+// 仅保留项目核心必要参数，移除Crowdin相关引用
 val appPackageName: String by rootProject.extra
-val crowdinProjectId: String by rootProject.extra
-val crowdinApiKey: String by rootProject.extra
 val localBuild: Boolean by rootProject.extra
 val officialBuild: Boolean by rootProject.extra
-
-@Suppress("deprecation")
-afterEvaluate {
-    if (localBuild || officialBuild) {
-        val url = URL("https://crowdin.com/api/v2/projects/$crowdinProjectId/members")
-        val urlConnection = url.openConnection() as HttpURLConnection
-        urlConnection.setRequestProperty("authorization", "Bearer $crowdinApiKey")
-
-        val inputStream = DataInputStream(urlConnection.getInputStream())
-        val str = String(inputStream.readAllBytes())
-        inputStream.close()
-        urlConnection.disconnect()
-
-        val json = JsonParser.parseString(str).asJsonObject
-        val translators = json.getAsJsonArray("data")
-        val translatorsMap = mutableMapOf<String, String>()
-        for (item in translators) {
-            val translator = item.asJsonObject.getAsJsonObject("data")
-            val avatarUrl = translator.get("avatarUrl").asString
-            val username = translator.get("username").asString
-            val fullName = try {
-                translator.get("fullName").asString
-            } catch (_: Throwable) {
-                ""
-            }
-
-            if (fullName.isNotEmpty() && fullName != username) {
-                translatorsMap["$fullName ($username)"] = avatarUrl
-            } else {
-                translatorsMap[username] = avatarUrl
-            }
-        }
-
-        val translatorJson = JSONObject(translatorsMap).toJSONString()
-        val srcDir = android.sourceSets["main"].assets.srcDirs.first()
-        logger.lifecycle("Src dir: $srcDir")
-        if (!srcDir.exists()) srcDir.mkdirs()
-        File(srcDir, "translators.json").writeText(translatorJson)
-    }
-}
 
 android {
     namespace = appPackageName

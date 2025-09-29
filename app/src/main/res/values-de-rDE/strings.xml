@@ -90,7 +90,7 @@
     <string name="app_warning_risky_package_title">Gefährliches Paket</string>
     <string name="app_warning_risky_package_desc">Dieses Paket ist als riskant markiert und kann Probleme in versteckten Anwendungen verursachen. Möchten Sie fortfahren?</string>
     <string name="app_spoof">Täuschen</string>
-    <string name="app_hide_installation_source">Installationsquellen vortäuschen</string>
+    <string name="app_hide_installation_source">Installationsquelle vortäuschen</string>
     <string name="app_hide_installation_source_desc">Alle Benutzeranwendungen werden als im Play Store für diese Anwendung installiert angesehen</string>
     <string name="app_hide_installation_source_system">Täusche System-Anwendungen ebenfalls</string>
     <string name="app_hide_installation_source_system_desc">Alle System-Anwendungen werden als über nichts für diese Anwendung installiert angesehen</string>

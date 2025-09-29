@@ -64,7 +64,7 @@
     <string name="list_empty_no_apps">Tidak ada apl yang ditemukan, mungkin anda tidak mengizinkan apl ini untuk mengakses semua paket</string>
     <string name="list_empty_preset">Tidak ada apl yang ditambahkan dalam preset ini</string>
     <!-- Manage templates -->
-    <string name="template_usage_hint">Buat templat untuk apl \"berisiko\", guna mengontrol akses daftar apl.\n\nBlacklist (disarankan): apl yang dipilih dalam templat akan tersembunyi dari apl yang menerapkan templat tersebut.\nWhitelist: apl yang tidak dipilih dalam templat akan tersembunyi oleh apl yang menerapkan templat tersebut.</string>
+    <string name="template_usage_hint">Buat templat untuk apl \"bermasalah\", guna mengontrol akses daftar apl.\n\nBlacklist (disarankan): apl yang dipilih dalam templat akan tak terlihat dari apl yang menerapkan templat tersebut.\nWhitelist: apl yang tidak dipilih dalam templat akan tak terlihat oleh apl yang menerapkan templat tersebut.</string>
     <string name="template_new_blacklist">Buat templat blacklist</string>
     <string name="template_new_whitelist">Buat templat whitelist</string>
     <string name="template_delete">Apakah anda yakin ingin menghapus templat tersebut?</string>
@@ -138,7 +138,7 @@
     <string name="settings_hide_icon_summary">Anda masih dapat membuka aplikasi di manajer Xposed</string>
     <string name="settings_bypass_risky_package_warning">Abaikan paket berisiko</string>
     <string name="settings_bypass_risky_package_warning_summary">Perlu diketahui bahwa pengembang tidak bertanggung jawab atas masalah terkait paket berisiko sebelum atau setelah anda mengaktifkan fitur ini</string>
-    <string name="settings_disable_activity_launch_protection">Nonaktifkan proteksi peluncuran Activity</string>
+    <string name="settings_disable_activity_launch_protection">Nonaktifkan peluncuran proteksi Activity</string>
     <string name="settings_disable_activity_launch_protection_summary">Tombol ini akan menonaktifkan semua proteksi startActivity. Jika anda tidak yakin, jangan aktifkan.</string>
     <string name="settings_language">Bahasa</string>
     <string name="settings_translate">Berpartisipasi dalam penerjemahan</string>
@@ -147,11 +147,11 @@
     <string name="settings_system_theme_color">Warna tema sistem</string>
     <string name="settings_theme_color">Warna tema</string>
     <string name="settings_dark_theme">Tema gelap</string>
-    <string name="settings_pure_black_dark_theme">Tema gelap hitam murni</string>
-    <string name="settings_pure_black_dark_theme_summary">Gunakan tema hitam murni jika tema gelap diaktifkan</string>
+    <string name="settings_pure_black_dark_theme">Tema gelap hitam pekat</string>
+    <string name="settings_pure_black_dark_theme_summary">Gunakan tema hitam pekat jika tema gelap diaktifkan</string>
     <string name="settings_service">Layanan</string>
     <string name="settings_stop_system_service">Hentikan layanan sistem</string>
-    <string name="settings_stop_system_service_summary">Perlu reboot untuk memulai kembali layanan</string>
+    <string name="settings_stop_system_service_summary">Perlu mulai ulang untuk memulai kembali layanan</string>
     <string name="settings_is_clean_env">Bersihkan lingkungan runtime pada saat yang bersamaan?</string>
     <string name="settings_is_clean_env_summary">Hapus cache layanan sistem di /data/misc/hide_my_applist_*. Setelah mulai ulang berikutnya, Diperlukan membuka aplikasi modul sekali secara manual untuk mengaktifkan intersepsi, dan jumlah intersepsi juga akan dihapus.</string>
     <string name="settings_force_clean_env">Paksa bersihkan lingkungan runtime (root)</string>

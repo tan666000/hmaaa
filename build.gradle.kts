@@ -1,7 +1,3 @@
-import com.android.build.api.dsl.ApplicationExtension
-import com.android.build.gradle.BaseExtension
-import org.jetbrains.kotlin.konan.properties.Properties
-
 plugins {
     alias(libs.plugins.kotlin) apply false
     alias(libs.plugins.agp.app) apply false
@@ -21,12 +17,6 @@ val localProperties = Properties()
 localProperties.load(file("local.properties").inputStream())
 val localBuild by extra(localProperties.getProperty("localBuild", "false") == "true")
 val officialBuild by extra(localProperties.getProperty("officialBuild", "false") == "true")
-
-@Suppress("unused")
-val crowdinProjectId: String by extra(localProperties.getProperty("crowdinProjectId", ""))
-
-@Suppress("unused")
-val crowdinApiKey: String by extra(localProperties.getProperty("crowdinApiKey", ""))
 
 fun getUncommittedSuffix(): String {
     if (officialBuild) return ""
@@ -56,7 +46,6 @@ val appVerName by extra("oss-${gitCommitCountAfterOss}${gitHasUncommittedSuffix}
  *
  * DO NOT REMOVE THESE LINES
 */
-
 @Suppress("unused")
 val configVerCode by extra(93)
 

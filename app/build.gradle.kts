@@ -8,7 +8,6 @@ plugins {
     alias(libs.plugins.nav.safeargs.kotlin)
 }
 
-// 仅保留项目核心必要参数，移除Crowdin相关引用
 val appPackageName: String by rootProject.extra
 val localBuild: Boolean by rootProject.extra
 val officialBuild: Boolean by rootProject.extra

@@ -4,7 +4,7 @@
     <string name="title_logs">Protokolle</string>
     <string name="title_settings">Einstellungen</string>
     <string name="title_template_manage">Sperr- und Freigabelisten</string>
-    <string name="title_template_settings">Vorlage Einstellungen</string>
+    <string name="title_template_settings">Vorlage verwalten</string>
     <string name="title_app_manage">Anwendungen verwalten</string>
     <string name="title_app_select">Apps auswählen</string>
     <string name="title_app_settings">App Einstellungen</string>
@@ -66,7 +66,7 @@
     <!-- Manage templates -->
     <string name="template_usage_hint">Erstellen Sie Vorlagen für \"ruhelose\" Apps und kontrollieren Sie den App, den Sie erhalten können.\n\nBlacklist (empfohlen): Die im Template ausgewählten Apps werden für die Apps, die die Vorlage anwenden, unsichtbar sein.\nWhitelist: Die im Template nicht ausgewählten Apps sind für die Apps, die die Vorlage anwenden, unsichtbar.</string>
     <string name="template_new_blacklist">Blacklist erstellen</string>
-    <string name="template_new_whitelist">Eine Whitelist erstellen</string>
+    <string name="template_new_whitelist">Whitelist</string>
     <string name="template_delete">Sind Sie sicher, dass Sie die Vorlage löschen wollen?</string>
     <string name="template_name">Name der Vorlage</string>
     <string name="template_name_invalid">Ungültiger Name</string>
@@ -90,10 +90,10 @@
     <string name="app_warning_risky_package_title">Gefährliches Paket</string>
     <string name="app_warning_risky_package_desc">Dieses Paket ist als riskant markiert und kann Probleme in versteckten Anwendungen verursachen. Möchten Sie fortfahren?</string>
     <string name="app_spoof">Täuschen</string>
-    <string name="app_hide_installation_source">Installationsquellen vortäuschen</string>
-    <string name="app_hide_installation_source_desc">Alle Benutzeranwendungen werden als im Play Store für diese Anwendung installiert angesehen</string>
-    <string name="app_hide_installation_source_system">Täusche System-Anwendungen ebenfalls</string>
-    <string name="app_hide_installation_source_system_desc">Alle System-Anwendungen werden als über nichts für diese Anwendung installiert angesehen</string>
+    <string name="app_hide_installation_source">Installationsquelle vortäuschen</string>
+    <string name="app_hide_installation_source_desc">Alle Benutzeranwendungen sind über den Play Store installiert worden für diese Anwendung</string>
+    <string name="app_hide_installation_source_system">Systemanwendungen auch täuschen</string>
+    <string name="app_hide_installation_source_system_desc">Systemanwendungen wissen nicht, worüber diese Anwendung installiert worden ist</string>
     <string name="app_exclude_target_installation_source">Ziel-App ausschließen</string>
     <string name="app_exclude_target_installation_source_desc">Sie können es aktivieren, wenn diese App im Play Store nicht verfügbar ist</string>
     <string name="app_force_stop_warning">Vergessen Sie nicht, die Ziel-App nach dem Speichern der Konfiguration zu beenden</string>
@@ -144,10 +144,10 @@
     <string name="settings_translate">Beim Übersetzen mitmachen</string>
     <string name="settings_translate_summary">Helfe uns, %s in deine Sprache zu übersetzen</string>
     <string name="settings_theme">Design</string>
-    <string name="settings_system_theme_color">System-Design-Farbe</string>
+    <string name="settings_system_theme_color">System Themenfarbe</string>
     <string name="settings_theme_color">Themenfarbe</string>
     <string name="settings_dark_theme">Dunkles Farbschema</string>
-    <string name="settings_pure_black_dark_theme">Pure black dark theme</string>
+    <string name="settings_pure_black_dark_theme">Schwarzes Thema</string>
     <string name="settings_pure_black_dark_theme_summary">Schwarzes Thema verwenden, wenn dunkles Thema aktiviert ist</string>
     <string name="settings_service">Service</string>
     <string name="settings_stop_system_service">Stoppe Systemdienste</string>
